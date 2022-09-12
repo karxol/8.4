@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {text-align: center;}
+h3 {text-align: center;}
+
+</style>
+</head>
+<body>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<h1><strong>Witaj na mojej pierwszej stronie</strong></h1>
+<img src="{{url_for('static',filename='logo.jpg')}}" />
+
+<h2>O mnie :
+    <ul>
+        <li> <strong>Imie:</strong>Imie: Karol</li>
+        <li><strong>Nazwisko:</strong> Kondracki</li>
+    </ul>
+</h2>
+
