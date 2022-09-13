@@ -1,8 +1,16 @@
 h1 {
     color: green;
-    background: black;
+    margin-left: 30px;
   }
 
 h2 {
-    color:brown;
+    color:rgb(255, 0, 0);
+    margin-left: 30px;
+}
+h3{
+  color:blue
+}
+
+h4{
+  font-size: 22px;
 }
